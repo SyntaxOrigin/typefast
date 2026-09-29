@@ -1,0 +1,157 @@
+{
+  "surum": 1,
+  "sablonlar": [
+    {
+      "tetik": ";tesekkur",
+      "govde": "Merhaba, teşekkür ederim.",
+      "kategori": "iletisim",
+      "aciklama": "Günlük açılış cümlesi",
+      "gizli": false,
+      "kullanim": 43
+    },
+    {
+      "tetik": ";yol",
+      "govde": "Size nasıl yardımcı olabilirim?",
+      "kategori": "iletisim",
+      "aciklama": "Soruyu takip eden açılış",
+      "gizli": false,
+      "kullanim": 17
+    },
+    {
+      "tetik": ";kapatis",
+      "govde": "İyi çalışmalar dilerim.\n\nSaygılarımla,",
+      "kategori": "iletisim",
+      "aciklama": "Kapanış paragrafı",
+      "gizli": false,
+      "kullanim": 11
+    },
+    {
+      "tetik": "acilis",
+      "govde": "Sayın {{musteri|Kıymetli Müşteri}},\n",
+      "kategori": "parca",
+      "aciklama": "Parça şablon: diğer şablonlar bunu çağırır",
+      "gizli": false,
+      "kullanim": 31
+    },
+    {
+      "tetik": "selam",
+      "govde": "{{>acilis}}\n",
+      "kategori": "parca",
+      "aciklama": "Parça şablon: açılış + boş satır",
+      "gizli": false,
+      "kullanim": 29
+    },
+    {
+      "tetik": ";selam",
+      "govde": "{{>selam}}",
+      "kategori": "iletisim",
+      "aciklama": "İç içe çağrı örneği: selam parçasını genişletir",
+      "gizli": false,
+      "kullanim": 29
+    },
+    {
+      "tetik": ";kisa selam",
+      "govde": "{{>selam}}Size nasıl yardımcı olabilirim?",
+      "kategori": "iletisim",
+      "aciklama": "En uzun eşleşme örneği",
+      "gizli": false,
+      "kullanim": 6
+    },
+    {
+      "tetik": ";imza",
+      "govde": "—\nGönderen: {{isim}}\nTarih: {{tarih}} {{saat}}",
+      "kategori": "iletisim",
+      "aciklama": "Yerleşik yer tutucu örneği",
+      "gizli": false,
+      "kullanim": 25
+    },
+    {
+      "tetik": ";not",
+      "govde": "NOT ({{zaman}}) — bu kayıt sistemde arşivlenmiştir.",
+      "kategori": "kayit",
+      "aciklama": "ISO zaman damgalı not",
+      "gizli": false,
+      "kullanim": 9
+    },
+    {
+      "tetik": "is parcasi",
+      "govde": "Talebinizi aldım, en kısa sürede size dönüş yapacağım.",
+      "kategori": "destek",
+      "aciklama": "İki kelimelik tetik: en uzun eşleşme kuralı",
+      "gizli": false,
+      "kullanim": 65
+    },
+    {
+      "tetik": "bilgi talebi",
+      "govde": "Talebiniz için gerekli bilgiyi topluyorum. {{tarih}} itibarıyla.",
+      "kategori": "destek",
+      "aciklama": "Destek ekibi ara cevap metni",
+      "gizli": false,
+      "kullanim": 18
+    },
+    {
+      "tetik": "cozuldu",
+      "govde": "Talebiniz çözüldü; memnuniyetiniz bizim için önemli.",
+      "kategori": "destek",
+      "aciklama": "Kapatma metni",
+      "gizli": false,
+      "kullanim": 21
+    },
+    {
+      "tetik": ";randevu",
+      "govde": "{{tarih}} tarihinde {{saat}} saatinde randevunuz alınmıştır.\n\nRandevu no: {{randevu_no|Kimlik üretilmedi}}",
+      "kategori": "randevu",
+      "aciklama": "Tanımlı yer tutucu örneği (varsayılan değer)",
+      "gizli": false,
+      "kullanim": 15
+    },
+    {
+      "tetik": ";toplanti",
+      "govde": "Toplantı notu ({{zaman}})\nKatılımcılar: {{katilimci|belirtilmedi}}\nGündem: {{gundem|belirlenecek}}",
+      "kategori": "toplanti",
+      "aciklama": "Çok satırlı tanımlı yer tutucu örneği",
+      "gizli": false,
+      "kullanim": 7
+    },
+    {
+      "tetik": "kayit-ekle",
+      "govde": "Kayıt eklendi: {{kayit_no|Kimlik üretilmedi}}",
+      "kategori": "sistem",
+      "aciklama": "Tire içeren tek kelimelik tetik örneği",
+      "gizli": false,
+      "kullanim": 4
+    },
+    {
+      "tetik": ";baglanti",
+      "govde": "postgresql://kullanici:OrnekSifre2026@localhost:5432/veritabani",
+      "kategori": "sistem",
+      "aciklama": "Gizli işaretli: bağlantı dizesi ekranda maskelenir",
+      "gizli": true,
+      "kullanim": 3
+    },
+    {
+      "tetik": ";token",
+      "govde": "token: ghp_ABCdefGHIjklMNOpqrSTuvWXYZ0123456789",
+      "kategori": "sistem",
+      "aciklama": "Gizli işaretli: jeton kalıbı otomatik tanınır",
+      "gizli": true,
+      "kullanim": 1
+    },
+    {
+      "tetik": ";sifre notu",
+      "govde": "parola: NotParola2026\nNot: bu satır sadece örnek içindir.",
+      "kategori": "sistem",
+      "aciklama": "Parola kalıbı otomatik tanınır ve maskelenir",
+      "gizli": true,
+      "kullanim": 0
+    },
+    {
+      "tetik": ",toplanti",
+      "govde": "Toplantı tutanağı eklendi.",
+      "kategori": "toplanti",
+      "aciklama": "Virgül ön ekli tetik örneği",
+      "gizli": false,
+      "kullanim": 2
+    }
+  ]
+}

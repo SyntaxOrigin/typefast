@@ -1,0 +1,79 @@
+{
+  "surum": 1,
+  "kapasite": 200,
+  "maks_boyut": 4096,
+  "kayitlar": [
+    {
+      "id": 10,
+      "metin": "2026-09-29 tarihinde 17:41:53 saatinde randevunuz alınmıştır.\n\nRandevu no: RV-2026-4471",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 87
+    },
+    {
+      "id": 9,
+      "metin": "Sayın Kıymetli Müşteri,\n\nSize nasıl yardımcı olabilirim?",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 56
+    },
+    {
+      "id": 8,
+      "metin": "—\nGönderen: Ceren\nTarih: 2026-09-29 17:41:53",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 44
+    },
+    {
+      "id": 7,
+      "metin": "token: ghp_ABCdefGHIjklMNOpqrSTuvWXYZ0123456789",
+      "gizli": true,
+      "zaman": 0,
+      "boyut": 47
+    },
+    {
+      "id": 6,
+      "metin": "parola: OrnekParola2026",
+      "gizli": true,
+      "zaman": 0,
+      "boyut": 23
+    },
+    {
+      "id": 5,
+      "metin": "Talebinizi aldım, en kısa sürede dönüş yapacağım.",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 49
+    },
+    {
+      "id": 1,
+      "metin": "Merhaba, teşekkür ederim.",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 25
+    },
+    {
+      "id": 4,
+      "metin": "Sayın Ayşe Yılmaz,\n\n",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 20
+    },
+    {
+      "id": 3,
+      "metin": "Talebinizi aldım, en kısa sürede size dönüş yapacağım.",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 54
+    },
+    {
+      "id": 2,
+      "metin": "—\nGönderen: Ceren\nTarih: 2026-09-29 17:41:39",
+      "gizli": false,
+      "zaman": 0,
+      "boyut": 44
+    }
+  ],
+  "sonraki_id": 11,
+  "atlanan": 1
+}

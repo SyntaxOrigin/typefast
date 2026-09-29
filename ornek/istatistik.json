@@ -1,0 +1,40 @@
+{
+  "surum": 1,
+  "genisletme": 7,
+  "kazanilan_tus": 269,
+  "kazanilan_karakter": 330,
+  "gecen_sn": 0.0000648,
+  "tus_carpani": 1.0,
+  "tetikler": {
+    ";imza": {
+      "adet": 2,
+      "kazanc": 76,
+      "karakter": 88
+    },
+    ";kisa selam": {
+      "adet": 1,
+      "kazanc": 44,
+      "karakter": 56
+    },
+    ";randevu": {
+      "adet": 1,
+      "kazanc": 78,
+      "karakter": 87
+    },
+    ";selam": {
+      "adet": 1,
+      "kazanc": 13,
+      "karakter": 20
+    },
+    ";tesekkur": {
+      "adet": 1,
+      "kazanc": 15,
+      "karakter": 25
+    },
+    "is parcasi": {
+      "adet": 1,
+      "kazanc": 43,
+      "karakter": 54
+    }
+  }
+}
