@@ -1,0 +1,29 @@
+[package]
+name = "typefast"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+license = "MIT"
+description = "Genel metin icin ongorulebilir sablon genisletici, kisayol cozumleyici ve duz metin pano gecmisi araci."
+repository = "https://github.com/SyntaxOrigin/typefast"
+readme = "README.md"
+keywords = ["cli", "typefast", "text-expansion", "clipboard"]
+categories = ["command-line-utilities", "text-processing"]
+
+[dependencies]
+# serde: sablon deposu, pano gecmisi ve istatistik dosyalarinin JSON semasi icin
+# turetilmis veri yapilari gerekli (src/sablon.rs, src/pano.rs, src/kazanc.rs).
+serde = { version = "1", features = ["derive"] }
+# serde_json: sablonlar.json / pano.json / istatistik.json dosyalari ile disari
+# aktarma belgeleri ayristirilip uretiliyor (src/depo.rs, src/aktarma.rs).
+serde_json = "1"
+# clap: add/list/expand/clipboard/search/export/import/stats/mask alt komutlari
+# ve --depo/--oturum bayraklari icin turetilmis komut satiri arayuzu (src/cli.rs).
+clap = { version = "4", features = ["derive"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = "debuginfo"
