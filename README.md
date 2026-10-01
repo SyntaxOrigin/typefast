@@ -798,6 +798,18 @@ sıfır uydurmaz, ölçülmemişse ölçülmedi der. Çözüm: `typefast expand 
 
 Doğrudan kopyalanan üçüncü taraf kod yoktur.
 
+## Üretim Atfı
+
+Bu depo **OpenCode** ajanı tarafından, **`space-bunny-free`** modeli
+(`opencode/space-bunny-free`) kullanılarak üretilmiştir.
+
+- **Arac:** OpenCode
+- **Model:** `opencode/space-bunny-free` (Space Bunny Free)
+- **Tür:** Rust, `cargo build` / `cargo test` ile üretilmiş ve doğrulanmıştır.
+
+Kaynak kod, testler ve dokümantasyon bu model tarafından yazılmıştır. İnsan
+katkısı: gereksinim tanımı, kabul ölçütleri ve son kontroller.
+
 ## Lisans
 
 **MIT** lisansı. Tam metin için [`LICENSE.txt`](LICENSE.txt) dosyasına bakın.
